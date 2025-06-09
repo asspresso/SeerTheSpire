@@ -1,0 +1,162 @@
+{
+  "${modID}:PowerID": {
+    "NAME": "Ultimate Power",
+    "DESCRIPTIONS": [
+      "You are Very Cool and Strong."
+    ]
+  },
+
+  "${modID}:Cold": {
+    "NAME": "冻伤",
+    "DESCRIPTIONS": [
+      "从攻击中受到的伤害增加 #b35% 且",
+      "从攻击中受到的伤害增加 #b65% 且",
+      "在其回合开始时， 受到",
+      "点伤害然后将层数减少1。",
+      "在你的回合开始时，受到"
+    ]
+  },
+
+  "${modID}:Burn": {
+    "NAME": "烧伤",
+    "DESCRIPTIONS": [
+      "用攻击造成的伤害减少 #b25% 且",
+      "用攻击造成的伤害减少 #b40% 且",
+      "在其回合开始时，受到",
+      "点伤害然后将层数减少1。",
+      "在你的回合开始时，受到"
+    ]
+  },
+
+  "${modID}:SeerPoison": {
+    "NAME": "中毒",
+    "DESCRIPTIONS": [
+      "在其回合开始时或受到攻击时，受到",
+      "点伤害然后将层数减少1。",
+      "在你回合开始或受到攻击时，受到"
+    ]
+  },
+
+  "${modID}:CriticalHit": {
+    "NAME": "致命一击",
+    "DESCRIPTIONS": [
+      "用攻击造成的伤害为1.5倍",
+      "用攻击造成的伤害为2倍"
+    ]
+  },
+
+  "${modID}:Astrolabe": {
+    "NAME": "星盘",
+    "DESCRIPTIONS": [
+      "在你的下回合开始时，获得1层无实体",
+      "在你的下",
+      "回合开始时，获得1层无实体"
+    ]
+  },
+
+  "${modID}:Emperor": {
+    "NAME": "星皇之赐",
+    "DESCRIPTIONS": [
+      "在你的回合开始时，获得1层人工制品，抽1张牌。"
+    ]
+  },
+
+  "${modID}:Spell": {
+    "NAME": "谱尼·封印",
+    "DESCRIPTIONS": [
+      "达到7层时清零并选择获得1张谱尼的真身形态。拥有真身后获得的封印效果将改为抽牌。"
+    ]
+  },
+
+  "${modID}:Nature": {
+    "NAME": "自然之力",
+    "DESCRIPTIONS": [
+      "敌方异常状态的扣血量增加"
+    ]
+  },
+
+  "${modID}:Banned": {
+    "NAME": "禁赛",
+    "DESCRIPTIONS": [
+      "禁赛达3次时，失去99999点生命"
+    ]
+  },
+
+  "${modID}:Centuries of Sleep": {
+    "NAME": "旷古长眠",
+    "DESCRIPTIONS": [
+      "在你的回合开始时，获得 #b",
+      " 张升级的元素牌。"
+    ]
+  },
+
+  "${modID}:Monshroom": {
+    "NAME": "蘑菇怪",
+    "DESCRIPTIONS": [
+      "当你对一名敌人造成负面状态时，获得 #b",
+      " 点格挡。"
+    ]
+  },
+
+  "${modID}:Riot": {
+    "NAME": "暴乱",
+    "DESCRIPTIONS": [
+      "当你打出致命一击时，抽 #b",
+      " 张牌。"
+    ]
+  },
+
+  "${modID}:Earth": {
+    "NAME": "大地守护",
+    "DESCRIPTIONS": [
+      "回合开始时，获得 #b",
+      " 点格挡。"
+    ]
+  },
+
+  "${modID}:Element Pony": {
+    "NAME": "元素形态",
+    "DESCRIPTIONS": [
+      "冻伤增伤比例改为65%，烧伤减伤比例改为40%。所有谱尼封印将变为抽牌。"
+    ]
+  },
+
+  "${modID}:Pure Pony": {
+    "NAME": "圣洁形态",
+    "DESCRIPTIONS": [
+      "致命一击增伤比例改为2倍。所有谱尼封印将变为抽牌。"
+    ]
+  },
+
+  "${modID}:Sorenson": {
+    "NAME": "混沌形态",
+    "DESCRIPTIONS": [
+      "所有谱尼封印将变为获得力量。"
+    ]
+  },
+
+  "${modID}:Mechanical Revolution": {
+    "NAME": "机械飞升",
+    "DESCRIPTIONS": [
+      "可以打出状态牌。每打出1张状态牌则获得",
+      "点格挡。"
+
+    ]
+  },
+
+  "${modID}:Rebirth": {
+    "NAME": "轮回之狱",
+    "DESCRIPTIONS": [
+      "当卡牌pp为满时，获得",
+      "点能量 。 不包括pp为1或无限的卡牌 。 "
+    ]
+  },
+
+  "${modID}:Blessing of the Mountain": {
+    "NAME": "山神守护",
+    "DESCRIPTIONS": [
+      "抵挡下",
+      "次受到的伤害，触发后赋予对应敌人3层中毒、烧伤和冻伤。"
+    ]
+  }
+}

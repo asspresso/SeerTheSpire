@@ -1,0 +1,153 @@
+[
+  {
+    "PROPER_NAME": "This is displayed in the tooltip.",
+    "NAMES": [
+      "these",
+      "are",
+      "detected",
+      "in",
+      "the",
+      "text"
+    ],
+    "DESCRIPTION": "This is displayed in the tooltip. Spaces should not be used be avoided in NAMES, with the exception of multi-word keywords (see next entry)."
+  },
+
+  {
+    "PROPER_NAME": "Multiword Keyword",
+    "NAMES": [
+      "multiword keyword",
+      "multiword_keyword",
+      "multiword_keywords"
+    ],
+    "DESCRIPTION": "Make sure the first element in NAMES has no underscores. The rest should use _ in the place of spaces. In card text, you'll use the underscore versions."
+  },
+
+  {
+    "PROPER_NAME": "PP",
+    "NAMES": [
+      "PP"
+    ],
+    "DESCRIPTION": "卡牌每打出1次时减少1点pp，为0时卡牌将被 消耗 。 pp无限时，该卡牌的pp值不会减少。"
+  },
+
+  {
+    "PROPER_NAME": "烧伤",
+    "NAMES": [
+      "烧伤"
+    ],
+    "DESCRIPTION": "回合开始时受到 #b3 点伤害，且攻击造成的伤害减少 #b25% 。层数每回合下降 #b1 。"
+  },
+
+  {
+    "PROPER_NAME": "冻伤",
+    "NAMES": [
+      "冻伤"
+    ],
+    "DESCRIPTION": "回合开始时受到 #b3 点伤害，且受到的攻击伤害增加 #b35% 。层数每回合下降 #b1 。"
+  },
+
+  {
+    "PROPER_NAME": "中毒",
+    "NAMES": [
+      "中毒"
+    ],
+    "DESCRIPTION": "回合开始时或受到攻击时，受到和层数相应的伤害，随后层数下降 #b1 。"
+  },
+
+  {
+    "PROPER_NAME": "谱尼封印",
+    "NAMES": [
+      "谱尼封印"
+    ],
+    "DESCRIPTION": "达到7层时清零并选择获得1张谱尼的真身形态。拥有真身后获得的封印效果将改为抽牌。"
+  },
+
+  {
+    "PROPER_NAME": "致命一击",
+    "NAMES": [
+      "致命一击",
+      "致命"
+    ],
+    "DESCRIPTION": "攻击伤害增加 #b50% 且触发特定卡牌的附加效果 。 "
+  },
+
+  {
+    "PROPER_NAME": "异常状态",
+    "NAMES": [
+      "异常状态"
+    ],
+    "DESCRIPTION": "赛尔号特有的负面状态，包括烧伤、冻伤、中毒。"
+  },
+
+  {
+    "PROPER_NAME": "故障机器人",
+    "NAMES": [
+      "故障机器人"
+    ],
+    "DESCRIPTION": "原版游戏中第四强的角色。"
+  },
+
+  {
+    "PROPER_NAME": "禁赛",
+    "NAMES": [
+      "禁赛"
+    ],
+    "DESCRIPTION": "禁赛达3次时，失去99999点生命。"
+  },
+
+  {
+    "PROPER_NAME": "元素",
+    "NAMES": [
+      "元素"
+    ],
+    "DESCRIPTION": "包括三张状态牌：毒粉、漩涡和火花。"
+  },
+
+  {
+    "PROPER_NAME": "残影",
+    "NAMES": [
+      "残影"
+    ],
+    "DESCRIPTION": "你的下回合开始时，格挡不会消失。"
+  },
+
+  {
+    "PROPER_NAME": "掉线",
+    "NAMES": [
+      "掉线"
+    ],
+    "DESCRIPTION": "掉线是不能被打出的、虚无的诅咒牌。抽到掉线时会损失 [E] 并遭到1次禁赛 。"
+  },
+
+  {
+    "PROPER_NAME": "自然之力",
+    "NAMES": [
+      "自然之力"
+    ],
+    "DESCRIPTION": "敌人在烧伤、冻伤、中毒状态下的扣血增加 。"
+  },
+
+  {
+    "PROPER_NAME": "残虐",
+    "NAMES": [
+      "残虐"
+    ],
+    "DESCRIPTION": "你对敌人造成负面状态时，使其受到伤害 。"
+  },
+
+  {
+    "PROPER_NAME": "缓冲",
+    "NAMES": [
+      "缓冲"
+    ],
+    "DESCRIPTION": "阻止下一次你受到的生命值损伤 。"
+  },
+
+  {
+    "PROPER_NAME": "注意",
+    "NAMES": [
+      "注意"
+    ],
+    "DESCRIPTION": "与液态记忆类似，在打出一张牌后快速使用双重暗影将该牌拿回，可能导致该牌的耗能不会被变为0 。因此，请避免过快打出此牌。塔门。"
+  }
+]

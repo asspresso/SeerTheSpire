@@ -1,0 +1,89 @@
+{
+  "${modID}:RelicID": {
+    "NAME": "Good Relic",
+    "FLAVOR": "Flavor text displayed in detailed relic view.",
+    "DESCRIPTIONS": [
+      "Gain [E] at the start of your turn. [E] is an energy icon."
+    ]
+  },
+
+  "${modID}:Primary Capsule": {
+    "NAME": "精灵胶囊",
+    "FLAVOR": "可以召唤小赛尔最初的精灵伙伴。",
+    "DESCRIPTIONS": [
+      "战斗开始时抉择：恢复 #b4 点生命 / 令所有敌人 #y${modID}:烧伤 / 获得 #b1 层 #y${modID}:致命一击 "
+    ]
+  },
+
+  "${modID}:Superior Capsule": {
+    "NAME": "无敌精灵胶囊",
+    "FLAVOR": "成为VIP用户后，尊贵的小赛尔现在可以召唤令人闻风丧胆的英雄。",
+    "DESCRIPTIONS": [
+      "替换 #r精灵胶囊 。战斗开始时抉择：获得 #r星怒主宰者 / #r八荒复仇者 / #r正义守望者 , 其费用为 #b0"
+    ]
+  },
+
+  "${modID}:Flash": {
+    "NAME": "Flash登录器",
+    "FLAVOR": "“活动仅面向《赛尔号巅峰之战》开放。”",
+    "DESCRIPTIONS": [
+      "每回合开始获得 [E] 。在战斗开始时，将 #b1 张 #r${modID}:掉线 放入你的抽牌堆。"
+    ]
+  },
+
+  "${modID}:Status Gem": {
+    "NAME": "控场宝石",
+    "FLAVOR": "这枚珍贵的宝石中似乎蕴藏了充盈的元素能量。",
+    "DESCRIPTIONS": [
+      "战斗开始时，获得 #b1 层 #y${modID}:自然之力 和 #y${modID}:残虐 。"
+    ]
+  },
+
+  "${modID}:Activation Crystal": {
+    "NAME": "通用刻印激活水晶",
+    "FLAVOR": "“通用刻印激活水晶可以给你的精灵开三孔...喂喂，那里不可以！”",
+    "DESCRIPTIONS": [
+      "在每场战斗的第一回合， #y升级 你的所有手牌。"
+    ]
+  },
+
+  "${modID}:Message of Autumn": {
+    "NAME": "秋风的讯息",
+    "FLAVOR": "里里维斯已故首领西叶遗留给首席骑士蒙鲁特的信件，不知道为何会出现在这里。",
+    "DESCRIPTIONS": [
+      "回合开始时你若处于至少 #b2 种负面效果，则移除你的所有负面效果并获得 #y${modID}:缓冲 。 (每场战斗生效1次)"
+    ]
+  },
+
+  "${modID}:Signal Tower": {
+    "NAME": "信号塔模型",
+    "FLAVOR": "精灵太空站信号塔的迷你模型，是摆放在基地里的不二选择。",
+    "DESCRIPTIONS": [
+      "战斗开始时，获得 #b7 层 #y${modID}:谱尼封印 。"
+    ]
+  },
+
+  "${modID}:Toy Unas": {
+    "NAME": "尤纳斯玩偶",
+    "FLAVOR": "这只玩偶像气球一样漂浮在空中，一旦被戳破就会迅速消失不见。",
+    "DESCRIPTIONS": [
+      "战斗开始时，获得 #b4 层 #y多层护甲 。 在你首次受到伤害后，失去所有 #y多层护甲 。"
+    ]
+  },
+
+  "${modID}:Bolt": {
+    "NAME": "赛尔螺栓",
+    "FLAVOR": "做工精良的螺丝钉，内侧清晰地印着你的名字。",
+    "DESCRIPTIONS": [
+      "回合结束时，处于至少 #b2 种 #y${modID}:异常状态 的敌人会被 #y虚弱 #b1 回合。"
+    ]
+  },
+
+  "${modID}:Clock Core": {
+    "NAME": "时钟诛机的核心",
+    "FLAVOR": "日夜星海里的神秘机器，拿在手上时总觉得会有大事发生。",
+    "DESCRIPTIONS": [
+      "在你的回合结束时，可以保留 #b1 张牌"
+    ]
+  }
+}

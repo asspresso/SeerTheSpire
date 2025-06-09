@@ -1,0 +1,458 @@
+{
+  "${modID}:ExampleCard": {
+    "NAME": "Name",
+    "DESCRIPTION": "Description. NL Second line.",
+    "UPGRADE_DESCRIPTION": "This will automatically be used if the card is upgraded. Remove it if unneeded.",
+    "EXTENDED_DESCRIPTION": [
+      "You can put more text in here.",
+      "If you need to use it for stuff.",
+      "Blizzard is a good example for this."
+    ]
+  },
+
+  "${modID}:Strike": {
+    "NAME": "打击",
+    "DESCRIPTION": "${modID}:pp : !stslib:ex! /10 NL 造成 !D! 点伤害 。 "
+  },
+
+  "${modID}:Defend": {
+    "NAME": "防御",
+    "DESCRIPTION": "${modID}:pp : !stslib:ex! /10 NL 给予自己或一名敌人 !B! 点 格挡 。"
+  },
+
+  "${modID}:Element": {
+    "NAME": "元素",
+    "DESCRIPTION": "${modID}:pp : !stslib:ex! /5 NL 获得 !M! 张 随机 ${modID}:元素 牌 。 NL 获得 1 层 ${modID}:谱尼封印 。"
+  },
+
+  "${modID}:Holy Light": {
+    "NAME": "圣光气",
+    "DESCRIPTION": "${modID}:pp : !stslib:ex! /5 NL 获得 1 层 ${modID}:致命一击 。"
+  },
+
+  "${modID}:Diamond Storm": {
+    "NAME": "钻石风暴",
+    "DESCRIPTION": "${modID}:pp : !stslib:ex! /5 NL 消耗最多 10 金币 。 NL 造成 !D! 点 伤害 。 NL 斩杀 时，获得 !M! 金币 。 "
+  },
+
+  "${modID}:Let There Be Light": {
+    "NAME": "曙光普照",
+    "DESCRIPTION": "${modID}:pp : !stslib:ex! /5 NL 获得2X张随机 ${modID}:元素 牌 。",
+    "UPGRADE_DESCRIPTION": "${modID}:pp : !stslib:ex! /5 NL 获得2X张升级的随机 ${modID}:元素 牌 。"
+  },
+
+  "${modID}:Pray for Rain": {
+    "NAME": "祈雨",
+    "DESCRIPTION": "${modID}:pp : !stslib:ex! /5 NL 获得 !B! 点 格挡 。 NL 给予 2 层 ${modID}:冻伤 。"
+  },
+
+  "${modID}:Dragon Will": {
+    "NAME": "龙之意志",
+    "DESCRIPTION": "${modID}:pp : !stslib:ex! /1 NL 获得1点 力量 ， 敏捷 。 抽1张牌。 NL 获得1点生命上限。",
+    "UPGRADE_DESCRIPTION": "${modID}:pp : !stslib:ex! /1 NL 获得1点 力量 ，敏捷 。 抽1张牌。 NL 获得1点生命上限。 NL 获得 [E] 。"
+  },
+
+  "${modID}:Elephant Stomp": {
+    "NAME": "福泽聚宝象",
+    "DESCRIPTION": "${modID}:pp : !stslib:ex! /1 。 保留 。 NL 造成 9 点 伤害，每回合增加 !M! ，最多9次 。",
+    "EXTENDED_DESCRIPTION": [" NL （造成 !D! 点伤害）"]
+  },
+
+  "${modID}:Charging Tide": {
+    "NAME": "千里击涛",
+    "DESCRIPTION": "${modID}:pp : !stslib:ex! /5 NL 造成 !D! 点 伤害。 NL 未被格挡的伤害将增幅至下一次攻击。 "
+  },
+
+  "${modID}:Lethal Flame": {
+    "NAME": "绝命火焰",
+    "DESCRIPTION": "${modID}:pp : !stslib:ex! /5 NL 造成 !D! 点伤害。 NL 给予 !M! 层 ${modID}:烧伤 ， 2%概率给予99层。"
+  },
+
+  "${modID}:Absorption": {
+    "NAME": "究极吸取",
+    "DESCRIPTION": "${modID}:pp : !stslib:ex! /1 NL 造成 !D! 点伤害 。 NL 未被格挡伤害的一半将回复你的体力。 "
+  },
+
+  "${modID}:Self Control": {
+    "NAME": "克制",
+    "DESCRIPTION": "${modID}:pp : !stslib:ex! /1 NL 将你上次受到的攻击伤害2倍反馈给对手。 ",
+    "UPGRADE_DESCRIPTION": "${modID}:pp : !stslib:ex! /1 。 保留 。 NL 将上次受到的攻击伤害2倍反馈给对手。 ",
+    "EXTENDED_DESCRIPTION": [" NL （造成 !D! 点伤害）"]
+  },
+
+  "${modID}:Spin Astrolabe": {
+    "NAME": "转动星盘",
+    "DESCRIPTION": "${modID}:pp : !stslib:ex! /1 。 NL 在你的下个回合，获得 1 层 无实体 。",
+    "UPGRADE_DESCRIPTION": "${modID}:pp : !stslib:ex! /2 。 NL 在你的下个回合，获得 1 层 无实体 。"
+  },
+
+  "${modID}:Universe Emperor": {
+    "NAME": "星怒主宰者",
+    "DESCRIPTION": "${modID}:pp : !stslib:ex! /1 NL 回合开始时获得 1 层 人工制品 ，抽 1 张牌 。 NL 持续 3 回合。 ",
+    "UPGRADE_DESCRIPTION": "${modID}:pp : !stslib:ex! /1 。 固有 。 NL 回合开始时获得 1 层 人工制品 ，抽 1 张牌 。 NL 持续 3 回合。 "
+  },
+
+  "${modID}:Eternal Fire": {
+    "NAME": "火种永存",
+    "DESCRIPTION": "${modID}:pp : !stslib:ex! /5 NL 获得 !B! 点 格挡 。 NL 给予所有敌人 !M! 层 ${modID}:烧伤 。"
+  },
+
+  "${modID}:Eternal Sea": {
+    "NAME": "沧海永存",
+    "DESCRIPTION": "${modID}:pp : !stslib:ex! /5 NL 对所有敌人造成 !D! 点 伤害，给予 2 层 ${modID}:冻伤 。"
+  },
+
+  "${modID}:Eternal Fragrance": {
+    "NAME": "芳馨永存",
+    "DESCRIPTION": "${modID}:pp : !stslib:ex! /1 NL 获得 3 层 金属化 。 NL 给予所有敌人 !M! 层 ${modID}:中毒 。"
+  },
+
+  "${modID}:San Monica": {
+    "NAME": "圣光莫妮卡",
+    "DESCRIPTION": "${modID}:pp : !stslib:ex! /1 NL 敌方 ${modID}:异常状态 受到的伤害增加 !M! 。"
+  },
+
+  "${modID}:Offline": {
+    "NAME": "掉线",
+    "DESCRIPTION": "虚无 。 不能被打出 。 NL 抽到这张牌时失去 [E] 且遭到 ${modID}:禁赛 。 "
+  },
+
+  "${modID}:F5": {
+    "NAME": "刷新",
+    "DESCRIPTION": "${modID}:pp : !stslib:ex! /5 NL 获得 [E] 。 NL 造成 !D! 点 伤害 。 NL 将一张 *掉线 放入你的抽牌堆顶端。"
+  },
+
+  "${modID}:Fifty": {
+    "NAME": "拖五十",
+    "DESCRIPTION": "${modID}:pp : !stslib:ex! /5 NL 获得 3 点 格挡 。 NL 战斗每经过1回合，额外获得 2 点 格挡 。",
+    "UPGRADE_DESCRIPTION": "${modID}:pp : !stslib:ex! /5 NL 获得 5 点 格挡 。 NL 战斗每经过1回合，额外获得 2 点 格挡 。",
+    "EXTENDED_DESCRIPTION": [" NL （获得 !B! 点格挡）"]
+  },
+
+  "${modID}:Ice Dance": {
+    "NAME": "银歌夜舞",
+    "DESCRIPTION": "${modID}:pp : !stslib:ex! /5 NL 造成 !D! 点 伤害 。 NL 给予 !M! 层 ${modID}:冻伤 ， NL 未触发则敌人失去 10 点生命 。"
+  },
+
+
+  "${modID}:Thinking": {
+    "NAME": "冥想",
+    "DESCRIPTION": "${modID}:pp : 无限 NL 获得 !B! 点 格挡 并抽 1 张牌，敌人 ${modID}:异常状态 总层数 ≥4 时效果翻倍 。"
+  },
+
+  "${modID}:United Core": {
+    "NAME": "异甲同心",
+    "DESCRIPTION": "${modID}:pp : !stslib:ex! /1 NL 从3张 ${modID}:故障机器人 的稀有牌中选择一张加入你的手牌 。",
+    "UPGRADE_DESCRIPTION": "${modID}:pp : !stslib:ex! /1 NL 从3张 ${modID}:故障机器人 的稀有牌中选择一张加入你的手牌 。 这张牌在本回合耗能变为 0 。"
+  },
+
+  "${modID}:Dramatic Light": {
+    "NAME": "奇幻光芒",
+    "DESCRIPTION": "${modID}:pp : !stslib:ex! /1 NL 尽可能触发一名敌人的 ${modID}:异常状态 回合结算。",
+    "UPGRADE_DESCRIPTION": "${modID}:pp : !stslib:ex! /1 NL 尽可能触发所有敌人的 ${modID}:异常状态 回合结算。"
+  },
+
+  "${modID}:Dark Shield": {
+    "NAME": "暗影护盾",
+    "DESCRIPTION": "${modID}:pp : !stslib:ex! /5 NL 获得 !B! 点 格挡 。 NL 给予一名敌人 !M! 点 格挡 。"
+  },
+
+  "${modID}:Road to Heaven": {
+    "NAME": "归途",
+    "DESCRIPTION": "${modID}:pp : !stslib:ex! /5 NL 去除一名敌人的 格挡 并造成 等量伤害 。 NL 若 格挡 值不少于 !M! 则吸取该 格挡 。",
+    "EXTENDED_DESCRIPTION": [" NL （造成 !D! 点伤害）"]
+  },
+
+  "${modID}:Frost Spear": {
+    "NAME": "霜·凌天寂帝枪",
+    "DESCRIPTION": "${modID}:pp : !stslib:ex! /5 NL 造成敌人 格挡 值 !M! 倍 的伤害 。",
+    "EXTENDED_DESCRIPTION": [" NL （造成 !D! 点伤害）"]
+  },
+
+  "${modID}:Trick": {
+    "NAME": "欺诈戏法",
+    "DESCRIPTION": "${modID}:pp : !stslib:ex! /5 NL 造成 !D! 点伤害 。 NL 给予敌人造成伤害2倍的 格挡 。"
+  },
+
+  "${modID}:Disarm Strike": {
+    "NAME": "致残打击",
+    "DESCRIPTION": "${modID}:pp : !stslib:ex! /2 NL 造成 !D! 点伤害 。 NL ${modID}:致命一击 ： 给予敌人 !M! 层 虚弱 。"
+  },
+
+  "${modID}:170": {
+    "NAME": "老鼠药",
+    "DESCRIPTION": "${modID}:pp : !stslib:ex! /1 NL 解除所有负面效果。 NL 回复 !M! 点 体力 。"
+  },
+
+  "${modID}:Toxic Pollen": {
+    "NAME": "毒粉",
+    "DESCRIPTION": "${modID}:pp : !stslib:ex! /1 NL 给予 !M! 层 ${modID}:中毒 。"
+  },
+
+  "${modID}:Spark": {
+    "NAME": "火花",
+    "DESCRIPTION": "${modID}:pp : !stslib:ex! /1 NL 给予 !M! 层 ${modID}:烧伤 。"
+  },
+
+  "${modID}:Swirl": {
+    "NAME": "漩涡",
+    "DESCRIPTION": "${modID}:pp : !stslib:ex! /1 NL 给予 !M! 层 ${modID}:冻伤 。"
+  },
+
+  "${modID}:Aqua Pummel": {
+    "NAME": "辉·沧天逆流拳",
+    "DESCRIPTION": "${modID}:pp : !stslib:ex! /5 NL 所有敌方每拥有2层 ${modID}:异常状态 ，随机造成一次 !D! 点伤害。",
+    "EXTENDED_DESCRIPTION": [" NL （共 !M! 次）"]
+  },
+
+  "${modID}:Null": {
+    "NAME": "虚无",
+    "DESCRIPTION": "${modID}:pp : !stslib:ex! /5 。 虚无 。 NL 抽 !M! 张牌 。 NL 获得1层 ${modID}:谱尼封印 。 "
+  },
+
+  "${modID}:Leonidas": {
+    "NAME": "洪荒·列奥尼达",
+    "DESCRIPTION": "${modID}:pp : !stslib:ex! /1 NL 回合开始时，获得 !M! 张 升级的随机 ${modID}:元素 牌 。"
+  },
+
+  "${modID}:Monshroom the God Slayer": {
+    "NAME": "对神兵器蘑菇怪",
+    "DESCRIPTION": "${modID}:pp : !stslib:ex! /1 NL 赋予敌人负面状态时，获得 !M! 点 格挡 。"
+  },
+
+  "${modID}:Glory the Riot": {
+    "NAME": "暴乱格劳瑞",
+    "DESCRIPTION": "${modID}:pp : !stslib:ex! /1 NL 当你打出 ${modID}:致命一击 时，抽 !M! 张牌 。"
+  },
+
+  "${modID}:Daybreak": {
+    "NAME": "万里春",
+    "DESCRIPTION": "${modID}:pp : !stslib:ex! /5 NL 造成 !D! 点伤害 。 目标敌人每拥有1种 ${modID}:异常状态 ，抽1张牌。"
+  },
+
+  "${modID}:Forbidden Pact": {
+    "NAME": "禁术·契灭",
+    "DESCRIPTION": "${modID}:pp : !stslib:ex! /1 NL 消耗非无限 ${modID}:pp 的牌并造成 ${modID}:pp 等值伤害，该值 ≥ !M! 时获得 ${modID}:缓冲 ，否则弃牌堆加入 *掉线",
+    "EXTENDED_DESCRIPTION": [" NL （造成 !D! 点伤害）"]
+  },
+
+  "${modID}:Vitality Potion": {
+    "NAME": "活力药剂",
+    "DESCRIPTION": "${modID}:pp : 无限 NL 选择一张手牌，将其 ${modID}:pp 增加 !M! 。 NL (对有限 ${modID}:pp 的牌生效)。 NL 获得 !B! 点 格挡 。"
+  },
+
+  "${modID}:Fatigue Gem": {
+    "NAME": "竭力宝石",
+    "DESCRIPTION": "${modID}:pp : !stslib:ex! /5 NL 选择一张手牌，将其 ${modID}:pp 减少 !M! 。 NL (对有限 ${modID}:pp 的牌生效)。 NL 抽1张牌 。"
+  },
+
+  "${modID}:Instant Attack": {
+    "NAME": "电光火石",
+    "DESCRIPTION": "${modID}:pp : !stslib:ex! /5 NL 造成 !D! 点伤害 。 NL ${modID}:致命一击 : 抽 !M! 张牌 。"
+  },
+
+  "${modID}:Leaf Storm": {
+    "NAME": "飞叶风暴",
+    "DESCRIPTION": "${modID}:pp : !stslib:ex! /5 NL 给予 !M! 层 ${modID}:中毒 。 NL 造成2次 !D! 点伤害 。"
+  },
+
+  "${modID}:Giant Cactus": {
+    "NAME": "巨型仙人掌",
+    "DESCRIPTION": "${modID}:pp : !stslib:ex! /5 NL 给予 !M! 层 ${modID}:中毒 。 NL 获得 !B! 点 格挡 。"
+  },
+
+  "${modID}:Candle": {
+    "NAME": "可嘟的蜡烛",
+    "DESCRIPTION": "${modID}:pp : !stslib:ex! /5 NL 造成 !D! 点伤害 。 NL 如果目标敌人的意图是攻击，则给予其 !M! 层 ${modID}:烧伤 。"
+  },
+
+  "${modID}:Energy": {
+    "NAME": "能量",
+    "DESCRIPTION": "${modID}:pp : !stslib:ex! /1 NL 获得2层 ${modID}:谱尼封印 。 NL 获得 [E] [E] 。"
+  },
+
+  "${modID}:Life": {
+    "NAME": "生命",
+    "DESCRIPTION": "${modID}:pp : !stslib:ex! /1 NL 生命值≥40时获得2层 ${modID}:谱尼封印 。 NL 否则，恢复 !M! 点生命。"
+  },
+
+  "${modID}:Eternity": {
+    "NAME": "永恒",
+    "DESCRIPTION": "${modID}:pp : !stslib:ex! /1 NL 获得 !M! 层 ${modID}:谱尼封印 。 NL 将一张 ${modID}:pp 上限大于2的手牌改为无限 ${modID}:pp 。"
+  },
+
+  "${modID}:Samsara": {
+    "NAME": "轮回",
+    "DESCRIPTION": "${modID}:pp : !stslib:ex! /1 NL 获得 2 层 ${modID}:谱尼封印 。 NL 将一张复制放入手中 。",
+    "UPGRADE_DESCRIPTION": "${modID}:pp : !stslib:ex! /1 。 固有 。 NL 获得 2 层 ${modID}:谱尼封印 。 NL 将一张复制放入手中 。"
+  },
+
+  "${modID}:Sacredness": {
+    "NAME": "圣洁",
+    "DESCRIPTION": "${modID}:pp : 无限 NL 获得 2 层 ${modID}:谱尼封印 。 NL 没有 ${modID}:致命一击 时获得1层， 否则获得 [E]",
+    "UPGRADE_DESCRIPTION": "${modID}:pp : 无限 NL 获得 2 层 ${modID}:谱尼封印 。 NL 没有 ${modID}:致命一击 时获得1层，否则获得 [E] [E]"
+  },
+
+  "${modID}:Element Power": {
+    "NAME": "元素之力",
+    "DESCRIPTION": "${modID}:pp : !stslib:ex! /5 NL 每当你对一名敌人造成负面状态 ，使对方受到 !M! 点伤害。"
+  },
+
+  "${modID}:Lionheart": {
+    "NAME": "莱因哈特",
+    "DESCRIPTION": "${modID}:pp : !stslib:ex! /1 NL 在你的回合开始时，获得 !M! 点 格挡 。"
+  },
+
+  "${modID}:Mental Collapse": {
+    "NAME": "精神幻灭",
+    "DESCRIPTION": "${modID}:pp : 无限 NL 造成 !D! 点伤害 。 NL ${modID}:致命一击 ： 获得1层 ${modID}:致命一击 ，获得 [E] 。"
+  },
+
+  "${modID}:True Pony Element": {
+    "NAME": "真身·元素形态",
+    "DESCRIPTION": "${modID}:pp : !stslib:ex! /1 NL ${modID}:冻伤 改为65%增伤 。 NL ${modID}:烧伤 改为40%减伤。 NL 之后获得的 ${modID}:谱尼封印 将改为抽等量牌。"
+  },
+
+  "${modID}:True Pony Pure": {
+    "NAME": "真身·圣洁形态",
+    "DESCRIPTION": "${modID}:pp : !stslib:ex! /1 NL ${modID}:致命一击 伤害改为2倍。 NL 之后获得的 ${modID}:谱尼封印 将改为抽等量牌。"
+  },
+
+  "${modID}:Abandon Sacredness": {
+    "NAME": "背弃圣灵",
+    "DESCRIPTION": "${modID}:pp : !stslib:ex! /1 NL 所有 ${modID}:谱尼封印 变为 力量 (真身视为7层)。之后的 ${modID}:谱尼封印 也将变为 力量 。"
+  },
+
+  "${modID}:Inspiration": {
+    "NAME": "灵感",
+    "DESCRIPTION": "${modID}:pp : !stslib:ex! /5 NL 消耗一张牌，其每有3点 ${modID}:pp 则获得一张随机的 ${modID}:元素 牌 。(无限 ${modID}:pp 时不获得  ${modID}:元素 牌)",
+    "UPGRADE_DESCRIPTION": "${modID}:pp : !stslib:ex! /5 NL 消耗一张牌，其每有3点 ${modID}:pp 则获得一张随机的升级 ${modID}:元素 牌 。 NL (无限 ${modID}:pp 时不获得  ${modID}:元素 牌)"
+  },
+
+  "${modID}:Source Light": {
+    "NAME": "无始源光",
+    "DESCRIPTION": "${modID}:pp : !stslib:ex! /5 NL 获得一层 ${modID}:致命一击 。 NL 获得 !M! 点临时 力量 。"
+  },
+
+  "${modID}:Soul Trapper": {
+    "NAME": "锁魂灯",
+    "DESCRIPTION": "${modID}:pp : !stslib:ex! /5 。 保留 。 NL 双倍吸取目标敌人的 格挡 。 NL 获得1层 ${modID}:残影 。",
+    "UPGRADE_DESCRIPTION": "${modID}:pp : !stslib:ex! /5 。 保留 。 NL 双倍吸取目标敌人的 格挡 。 若 格挡 不大于8则改为3倍吸取 。 NL 获得1层 ${modID}:残影 。"
+  },
+
+  "${modID}:Godify Chant": {
+    "NAME": "登神日讴歌",
+    "DESCRIPTION": "${modID}:pp : !stslib:ex! /5 NL 本回合你可以打出状态牌，且每打出1张则获得 !M! 点 格挡 。"
+  },
+
+  "${modID}:Dragon Spell": {
+    "NAME": "龙族秘咒",
+    "DESCRIPTION": "${modID}:pp : !stslib:ex! /5 NL 获得当前手牌 ${modID}:pp 总和四分之一的 格挡 。",
+    "UPGRADE_DESCRIPTION": "${modID}:pp : !stslib:ex! /5 NL 获得当前手牌 ${modID}:pp 总和三分之一的 格挡 。",
+    "EXTENDED_DESCRIPTION": [" NL （获得 !B! 点格挡）"]
+  },
+
+  "${modID}:Knock": {
+    "NAME": "撞击",
+    "DESCRIPTION": "${modID}:pp : !stslib:ex! /20 。 保留 。 NL 造成1点伤害 。",
+    "UPGRADE_DESCRIPTION": "${modID}:pp : !stslib:ex! /30 。 保留 。 NL 造成1点伤害 。"
+  },
+
+  "${modID}:Blue": {
+    "NAME": "布鲁",
+    "DESCRIPTION": "${modID}:pp : !stslib:ex! /5 NL 造成 !D! 点伤害 。 NL 获得一张 *漩涡 。 NL 若手牌拥有格林，获得5点 格挡 。"
+  },
+
+  "${modID}:Green": {
+    "NAME": "格林",
+    "DESCRIPTION": "${modID}:pp : !stslib:ex! /5 NL 获得 !B! 点 格挡 。 NL 若手牌拥有布鲁，抽1张牌 。"
+  },
+
+  "${modID}:Lightning Slash": {
+    "NAME": "雷神天明闪",
+    "DESCRIPTION": "${modID}:pp : !stslib:ex! /1 NL 对所有敌人造成 !D! 点伤害 。 ${modID}:致命一击 ：基础伤害翻倍 。"
+  },
+
+  "${modID}:Breakthrough": {
+    "NAME": "石破天惊",
+    "DESCRIPTION": "${modID}:pp : !stslib:ex! /1 NL 造成 !D! 点伤害并令对手失去 !M! 点 力量 。 NL ${modID}:致命一击 ： 改为吸取 力量 。"
+  },
+
+  "${modID}:Dual Shadow": {
+    "NAME": "双重暗影",
+    "DESCRIPTION": "${modID}:pp : !stslib:ex! /3 。 ${modID}:注意 ！ NL 选择弃牌堆中的 !M! 张牌放入手牌，使其在本回合的耗能变为0。"
+  },
+
+  "${modID}:First Recharge": {
+    "NAME": "首充奖励",
+    "DESCRIPTION": "${modID}:pp : !stslib:ex! /1 NL 支付 !M! 金币。 NL 抽4张牌。"
+  },
+
+  "${modID}:Avenger": {
+    "NAME": "八荒复仇者",
+    "DESCRIPTION": "${modID}:pp : !stslib:ex! /1 NL 获得 3 层 ${modID}:致命一击 。 ",
+    "UPGRADE_DESCRIPTION": "${modID}:pp : !stslib:ex! /1 。 保留 。 NL 获得 3 层 ${modID}:致命一击 。 "
+  },
+
+  "${modID}:Guardian of Justice": {
+    "NAME": "正义守望者",
+    "DESCRIPTION": "${modID}:pp : !stslib:ex! /1 NL 获得 !M! 层 再生 。 "
+  },
+
+  "${modID}:Apocalypse": {
+    "NAME": "神话轮回者",
+    "DESCRIPTION": "${modID}:pp : !stslib:ex! /1 。 固有 。 NL 打出 ${modID}:pp 为满的牌时，获得 [E] 。 (不包括 ${modID}:pp 为1或无限的卡牌 。 )"
+  },
+
+  "${modID}:Mountain God": {
+    "NAME": "山神的守护",
+    "DESCRIPTION": "${modID}:pp : !stslib:ex! /1 。 虚无 。 NL 抵挡下 !M! 次伤害，触发后给予对应敌人3层 ${modID}:中毒 、 ${modID}:烧伤 和 ${modID}:冻伤 。"
+  },
+
+  "${modID}:Infinite Claw": {
+    "NAME": "无限连爪",
+    "DESCRIPTION": "${modID}:pp : !stslib:ex! /5  NL 造成 !D! 点伤害 !M! 次 。"
+  },
+
+  "${modID}:Reverse": {
+    "NAME": "属性反转",
+    "DESCRIPTION": "${modID}:pp : !stslib:ex! /5  NL 若对手意图为攻击，则当回合令其失去攻击值 !M!% 的 力量 并为其附加等量的 格挡 。"
+  },
+
+  "${modID}:Doom": {
+    "NAME": "昏天灭地",
+    "DESCRIPTION": "${modID}:pp : !stslib:ex! /5  NL 造成6点伤害, 每有10点 格挡 则额外执行1次，最多额外 !M! 次。",
+    "EXTENDED_DESCRIPTION": [" NL (共", "次)"]
+  },
+
+  "${modID}:Harvest": {
+    "NAME": "秋实之音",
+    "DESCRIPTION": "${modID}:pp : !stslib:ex! /5  NL 造成 !D! 点伤害。 若对手处于 ${modID}:异常状态 ，抽 !M! 张牌，获得 [E] 。"
+  },
+
+  "${modID}:Prismatic Light": {
+    "NAME": "多彩虹光",
+    "DESCRIPTION": "${modID}:pp : !stslib:ex! /5  NL 所有 ${modID}:异常状态 中，若敌人处于该状态则造成 !D! 点伤害，否则获得1张对应的 ${modID}:元素 牌 。"
+  },
+
+  "${modID}:Celestial Embrace": {
+    "NAME": "群辰之拥",
+    "DESCRIPTION": "${modID}:pp : !stslib:ex! /5  NL 造成 !D! 点伤害 。 NL ${modID}:致命一击 ：获得 !M! 点 格挡 。"
+  },
+
+  "${modID}:Bubu Seed": {
+    "NAME": "布布种子",
+    "DESCRIPTION": "${modID}:pp : !stslib:ex! /1  NL 恢复4点体力。"
+  },
+
+  "${modID}:Fire Monkey": {
+    "NAME": "小火猴",
+    "DESCRIPTION": "${modID}:pp : !stslib:ex! /1  NL 给予所有敌人1层 ${modID}:烧伤 。"
+  },
+
+  "${modID}:Yiyu": {
+    "NAME": "伊优",
+    "DESCRIPTION": "${modID}:pp : !stslib:ex! /1  NL 获得1层 ${modID}:致命一击 。",
+    "UPGRADE_DESCRIPTION": "${modID}:pp : !stslib:ex! /1 。 保留 。 NL 获得1层 ${modID}:致命一击 。"
+  }
+}
