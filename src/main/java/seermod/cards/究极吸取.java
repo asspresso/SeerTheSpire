@@ -1,11 +1,13 @@
 package seermod.cards;
 
 import com.evacipated.cardcrawl.mod.stslib.variables.ExhaustiveVariable;
+import com.megacrit.cardcrawl.actions.AbstractGameAction;
 import com.megacrit.cardcrawl.actions.common.HealAction;
 import com.megacrit.cardcrawl.cards.AbstractCard;
 import com.megacrit.cardcrawl.cards.DamageInfo;
 import com.megacrit.cardcrawl.characters.AbstractPlayer;
 import com.megacrit.cardcrawl.monsters.AbstractMonster;
+import seermod.actions.吸取;
 import seermod.character.SEER;
 import seermod.util.CardStats;
 
@@ -31,10 +33,7 @@ public class 究极吸取 extends BaseCard {
 
     @Override
     public void use(AbstractPlayer p, AbstractMonster m) {
-        m.damage(new DamageInfo(p, damage, DamageInfo.DamageType.NORMAL));
-        if (m.lastDamageTaken > 0){
-            addToBot(new HealAction(p, p, (int)(m.lastDamageTaken * 0.5F)));
-        }
+        addToBot(new 吸取(m, new DamageInfo(p, damage, damageTypeForTurn), AbstractGameAction.AttackEffect.NONE));
     }
 
 }

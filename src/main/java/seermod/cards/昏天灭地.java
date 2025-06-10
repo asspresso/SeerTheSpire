@@ -25,6 +25,7 @@ public class 昏天灭地 extends BaseCard {
 
     public 昏天灭地() {
         super(ID, info); //Pass the required information to the BaseCard constructor.
+        setDamage(6, 0);
         setMagic(6, 2); //Sets the card's damage and how much it changes when upgraded.
         ExhaustiveVariable.setBaseValue(this, BASE_EXHAUSTIVE);
     }
@@ -39,8 +40,9 @@ public class 昏天灭地 extends BaseCard {
 
     public void applyPowers() {
         super.applyPowers();
-        int cnt = Math.min(magicNumber, AbstractDungeon.player.currentBlock / 10 + 1);
+        int cnt = Math.min(magicNumber + 1, AbstractDungeon.player.currentBlock / 10 + 1);
         rawDescription = cardStrings.DESCRIPTION;
         rawDescription += cardStrings.EXTENDED_DESCRIPTION[0] + cnt + cardStrings.EXTENDED_DESCRIPTION[1];
+        initializeDescription();
     }
 }

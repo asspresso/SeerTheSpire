@@ -421,7 +421,7 @@
 
   "${modID}:Doom": {
     "NAME": "昏天灭地",
-    "DESCRIPTION": "${modID}:pp : !stslib:ex! /5  NL 造成6点伤害, 每有10点 格挡 则额外执行1次，最多额外 !M! 次。",
+    "DESCRIPTION": "${modID}:pp : !stslib:ex! /5  NL 造成 !D! 点伤害, 每有10点 格挡 则额外执行1次，最多额外 !M! 次。",
     "EXTENDED_DESCRIPTION": [" NL (共", "次)"]
   },
 

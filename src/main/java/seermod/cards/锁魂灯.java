@@ -26,7 +26,7 @@ public class 锁魂灯 extends BaseCard{
     public 锁魂灯() {
         super(ID, info); //Pass the required information to the BaseCard constructor.
         ExhaustiveVariable.setBaseValue(this, BASE_EXHAUSTIVE);
-        retain = true;
+        selfRetain = true;
     }
 
     @Override
@@ -40,6 +40,5 @@ public class 锁魂灯 extends BaseCard{
         }
         addToBot(new ApplyPowerAction(p, p, new BlurPower(p, 1), 1));
     }
-
 }
 
