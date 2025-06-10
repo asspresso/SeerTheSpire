@@ -1,36 +1,22 @@
-# Basic Mod
+# Seer The Spire Mod
 
-This is an empty Slay the Spire mod + a modding tutorial.
+This is the Seer mod of Slay the Spire, which is written based on the Basic Mod: https://github.com/Alchyr/BasicMod
 
-This tutorial will help with setup and the basics of Slay the Spire modding, but it will not teach you Java. If you know nothing of Java or programming in general, you are strongly recommended to look up a free online course and do at least some of it. It is possible to do modding with almost no proper knowledge, but it will make things much more difficult.
+# Introduction
 
----
+This mod is based on a CN web game called Seer, in which the character is a robot who travels here and there in the universe and makes friends with various creatures in different planets.
 
-## Check the wiki to get started:
+# How to Play?
 
-https://github.com/Alchyr/BasicMod/wiki
+This mod is currently available in the Workshop of Slay the Spire: https://steamcommunity.com/sharedfiles/filedetails/?id=3494903442
+You may also search "赛尔尖塔 SeerTheSpire" to find it.
 
----
+# Content
 
-## Know what you're doing?
+This mod has 1 new character, 75 new cards, 6 special cards, and 10 relics.
 
-You can still use this mod as a base, or you could use another template like https://github.com/DarkVexon/ProTemplate
+# Game Language
 
-You can find more options in the pins of the #modding-technical channel in the Slay the Spire discord server.
+Since this mod is based on a CN game with lots of its memes and content, Chinese is the only supported language. 
 
----
-
-### Some HD Slay the Spire art assets (courtesy of Gremious, creator of DefaultMod):
-
-Includes:
-- Empty Relic Template feat. empty bottle
-- Empty Card Template
-- Color-Changable cardback
-- A couple of HD Monster vectors (Louse, Nob, Sentry, Sneaky Gremlin)
-- A coupe of HD items (J.A.X., A Coin)
-- 2 people silhouettes
-- A curse Background
-
-https://github.com/Gremious/StS-DefaultModBase#some-hd-slay-the-spire-art-assets
-
----
+Thanks for reading and have fun playing the mod!
